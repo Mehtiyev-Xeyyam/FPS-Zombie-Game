@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8869288480675757548
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.616861
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.045795
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -33.264664
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      propertyPath: m_Name
+      value: Zombiegirl W Kurniawan
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5466854859774052673}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 615036305881689998}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4806291998540759373}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6627299095040493063}
+  m_SourcePrefab: {fileID: 100100000, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+--- !u!1 &8635479869677453501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 050d4a569431d654c8e61fb8f6f19b70, type: 3}
+  m_PrefabInstance: {fileID: 8869288480675757548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &5466854859774052673
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8635479869677453501}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 6
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 2
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &615036305881689998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8635479869677453501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301a2c12031a09948a26f06be18f186a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieController
+  enemyType: 0
+  attackRange: 4
+  attackCooldown: 0.3
+  attackDamage: 5
+  moveSpeed: 6
+  detectionRange: 20
+  maxHealth: 70
+  Player: {fileID: 0}
+--- !u!136 &4806291998540759373
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8635479869677453501}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.307683
+  m_Height: 2.107361
+  m_Direction: 1
+  m_Center: {x: 0.016409874, y: 1.0036753, z: -0.025096893}
+--- !u!95 &6627299095040493063
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8635479869677453501}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4c38a96de117fd94a82587ef5f261679, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
